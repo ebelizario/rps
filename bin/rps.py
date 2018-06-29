@@ -1,3 +1,5 @@
+#!/usr/bin/python2.7
+
 '''
 This is a rock paper scissor game
 '''
