@@ -6,6 +6,7 @@ from rps.domain import Action
 
 
 def play(move):
+    start_intro()
     action = Action(move)
     move = move.upper()
     cpu_move = action.cpu_move.upper()
@@ -27,3 +28,7 @@ def start_intro():
     print 'SHOOT!'
     print
 
+
+def get_moves():
+    '''Returns list of possible moves'''
+    return POSSIBLE_MOVES.keys()
